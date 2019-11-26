@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Build a Survey Form</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <style>
+  p:focus {
+    background-color: yellow;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Student Survey</h1>
+  </header>
+  <section>
+    <form>
+
+
+      <p>Instructions: Fill in ALL your information then click <b>Submit</b></p>
+
+
+      <label for="username">Full name:</label>
+      <input type="text" id="username" name="username"><br>
+      <fieldset>
+        <legend>What grade are you in?</legend>
+        <input id="sorphomore" type="radio" name="levels" value="sorphomore">
+        <label for="sorphomore">Tenth grade</label><br>
+        <input id="" type="radio" name="levels" value="Junior">
+        <label for="Junior ">Eleventh grade</label><br>
+        <input id="senior" type="radio" name="levels" value="senior">
+        <label for="Senior">Twelves grade</label>
+      </fieldset>
+      <br>
+      <fieldset>
+    <legend>What is your favorite subject? </legend> 
+      <input id="science" type="checkbox" name="math" value="math">
+      <label for="science">Maths</label><br>
+      <input id="language" type="checkbox" name="language" value="s">
+      <label for="language">English </label><br>
+      <input id="social" type="checkbox" name="social" value="social">
+      <label for="Social">Social Study</label><br>
+      <input id="other" type="checkbox" name="other" value="other">
+      <label for="other">Other</label>
+      </fieldset>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+    </form><br>
+  </section>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
